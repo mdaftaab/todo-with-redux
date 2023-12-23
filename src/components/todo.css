@@ -95,15 +95,16 @@ input:focus {
     cursor: pointer;
     pointer-events: auto;
     z-index: 10;
-    background-color: #fff;
     background-image: none;
     color: #666;
     -webkit-transition: color 0.15s linear;
     transition: color 0.15s linear;
     font-size: 2rem;
 }
-
-.fa:hover {
+.eachItem .fa{
+    color:#fff;
+}
+.eachItem:hover .fa{
     color: rgb(47, 214, 122);
 }
 
@@ -122,6 +123,7 @@ input:focus {
     padding: 1.2rem 1rem;
     border-radius: 0.5rem;
     margin-bottom: 0.7rem;
+    margin-top: 1.4rem;
     margin-left: 1rem;
     min-width: 40rem;
     word-break: break-word;
@@ -130,7 +132,10 @@ input:focus {
     justify-content: space-between;
     align-items: center;
 }
-
+.eachItem h3{
+    color: #fff;
+    font-size: 1.8rem;
+}
 .eachItem:hover {
     background: rgb(249, 249, 252);
     color: rgb(85, 41, 220);
