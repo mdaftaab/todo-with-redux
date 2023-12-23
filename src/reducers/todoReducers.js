@@ -31,7 +31,7 @@ const todoReducers = (state = initialData, action) => {
         case 'REMOVE_TODO':
             return {
                 ...state,
-                list: state.list.filter(todo => todo.id !== action.payload)
+                list: []
             }
         default:
             return state
